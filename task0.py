@@ -3,6 +3,7 @@ counter = NULL
 counter.output = NULL
 counter = seq(1, n, by=1)
 
+# Generalize for any varaible a & b
 a=3
 b=5
 
@@ -17,4 +18,4 @@ for (i in 1:n){
         counter.output[i] = "Buzz"
       }
     else counter.output[i] = counter[i]
-
+}
